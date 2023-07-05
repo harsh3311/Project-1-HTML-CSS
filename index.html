@@ -8,6 +8,7 @@
     <link rel="icon" type="image" href="img/favicon.png">
 </head>
 <body>
+    <div id="preloader"></div>
     <div id="home"></div>
     <div id="main">
         <div id="nav"> 
@@ -96,5 +97,11 @@
         <p>&#169 <a href="http://instagram.com/kangrow.in/">KanGrow</a> 2023. All Rights Reserved</p>
     </div>
 </div>
+    <script>
+var loader = document.getElementById("preloader");
+    window.addEventListener ("load", function(){
+        loader.style.display = "none";
+});
+</script>
 </body>
 </html>
