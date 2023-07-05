@@ -13,6 +13,15 @@ html,body{
   background-repeat: repeat-x;
 }
 
+#preloader{
+    background: #f7ba85 url(img/maker-happy-cup.gif) no-repeat center center;
+    background-size: 5%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100 ;
+    }
+
 #home{
   width: 100%;
   height: 22%;
